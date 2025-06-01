@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/*
+Brett Fuller
+CSD-430 - Assignment 2.2
+5/31/25
+*/
+footer{
+    background-color: #6886c2;
+    position: fixed;
+    left: 0;
+    font-weight: 400;
+    padding-right: 10px;
+    font-style: italic;
+    bottom: 0;
+    width: 100%;
+    float: right;
+}
+header{
+    position: absolute;
+    background-color: #6886C2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    top: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 15px;
+    border-bottom-color: #E5bb3c;
+    z-index: 2;
+}
+#container{
+    margin-top: 160px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    font-weight: 500;
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+    border-style: dashed;
+}
+#left, #right{
+    width: 45%;
+    border-color: red;
+    border-radius: 15px;
+    border-width: 1px; 
+    padding: 10px;
+}
+#bottom{
+    /* feels like margin is too large because you have to scroll to see the links but following assignment 
+    with some trial and error I found 35% looked best on my laptop screen*/
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+}
+#roman{
+    list-style-type: upper-roman;
+}
+table{
+	float: left;
+    border-style: solid;
+    width: 45%;
+    border-radius: 15px;
+    border-width: 1px; 
+    padding: 30px;
+}
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+td{
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+    padding: 8px;
+}
+a:hover{
+    /* doesn't seem to do anything since link is already underlined but following instructions. */
+    text-decoration: underline;
+}
+footer p{
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+footer a{
+    color: white;
+}
