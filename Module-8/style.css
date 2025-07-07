@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/*
+Brett Fuller
+CSD-430 - Assignment 5 and 6
+6/22/25
+*/
+footer{
+    background-color: #6886c2;
+    position: fixed;
+    left: 0;
+    font-weight: 400;
+    padding-right: 10px;
+    font-style: italic;
+    bottom: 0;
+    width: 100%;
+    float: right;
+}
+header{
+    position: absolute;
+    background-color: #6886C2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    top: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 15px;
+    border-bottom-color: #E5bb3c;
+    z-index: 2;
+}
+#container{
+    margin-top: 160px;
+    margin-bottom: 200px;
+}
+#largeTable{
+	margin-top: 600px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    font-weight: 500;
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+	text-align: right;
+}
+#left, #right{
+    width: 45%;
+    padding: 10px;
+}
+#bottom{
+    /* feels like margin is too large because you have to scroll to see the links but following assignment 
+    with some trial and error I found 35% looked best on my laptop screen*/
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+}
+#roman{
+    list-style-type: upper-roman;
+}
+table{
+
+    border-style: solid;
+    width: 45%;
+    border-radius: 15px;
+    border-width: 1px; 
+    padding: 30px;
+}
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+td{
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+    padding: 8px;
+}
+
+footer p{
+	padding-top: 5px;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+footer a{
+    color: white;
+}
